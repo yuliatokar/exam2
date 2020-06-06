@@ -1,0 +1,48 @@
+.projects {
+    height: 1000px;
+    padding-left: 120px;
+  
+    &-title {
+      margin-top: 100px;
+      
+      &__title {
+        margin: 35px 0 165px;
+        font-size: 44px;
+        font-weight: bold;
+        color: #2c4058;
+        text-transform: uppercase;
+      }
+    }
+  
+    &-block {
+      &__img {
+        width: 285px;
+        height: 214px;
+        &--big {
+         width: 580px; 
+         height: 438px;
+          background: url(/images/gallery/scott-webb-176434.png) 100% 100% no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        &--small1 {
+          background: url(/images/gallery/photos-13323p6Bdc0uhr8Bq.png) 100% 100% no-repeat;
+          background-size: cover;
+          margin-bottom: 10px;
+        }
+        &--small2 {
+          background: url(/images/gallery/echo-grid-156713.png) 100% 100% no-repeat;
+          background-size: cover;
+        }
+        &--small3 {
+          background: url(/images/gallery/fuse-brussels-169216.png) 100% 100% no-repeat;
+          background-size: cover;
+          margin-bottom: 10px;
+        }
+        &--small4 {
+          background: url(/images/gallery/tu-tram-pham-202263.png) 100% 100% no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  }

@@ -1,0 +1,85 @@
+.header {
+    width: 100vw;
+    height: 820px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+
+
+    &__block {
+        width: 100vw;
+        height: 100vh;
+        background: url('/images/gallery/tu-tram-pham-202263.png'), linear-gradient(32deg, rgba(8,238,235,1) 0%, rgba(166,9,238,1) 100%);
+        background-size: cover;
+        padding-top: 25px;
+        overflow-x: hidden;
+    }
+}
+
+.header__title {
+    color: white;
+    height: 59px;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 4.8px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 190px;
+    margin-bottom: 15px;
+    }
+
+.header__description {
+    height: 21px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    text-align: center;
+    font-weight: 200;
+    }
+
+    .scroll {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .navigation {
+        width: 100vw;
+        color: white;
+        display: flex;
+
+        &__logo {
+            margin-left: 115px;
+        }
+    }
+    
+    .menu {
+        display: flex;
+        margin-left: 129px;
+        padding: 24px 0;
+    
+        &__item {
+            font-family: Aleo;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-right: 82px;
+    
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    
+        &__link {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .social {
+        display: flex;
+        margin-left: 84px;
+
+        &__link {
+            padding-right: 22px;
+    }
+}
+    
